@@ -57,6 +57,9 @@ body {
   color: #fff;
   letter-spacing: 5px;
   font-style: normal;
+  margin-right: auto;
+  margin-left: 1rem;
+}
 }
 
 .navbar .navbar-logo span {
@@ -157,13 +160,13 @@ body {
   0% {
     width: 0;
   }
+  40% {
+    width: 60%;
+  }
   50% {
-    width: 80%;
+    width: 60%;
   }
   70% {
-    width: 80%;
-  }
-  80% {
     width: 0;
   }
 }
